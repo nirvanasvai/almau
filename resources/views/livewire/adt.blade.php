@@ -55,8 +55,8 @@
                                         </label>
                                     </th>
                                     <th>
-                                        <label style="cursor: pointer" for="name">
-                                            <input type="checkbox" id="name" wire:model="created_at" class="d-none">
+                                        <label style="cursor: pointer" for="data">
+                                            <input type="checkbox" id="data" wire:model="created_at" class="d-none">
                                             Дата @if ($created_at == 1)
 
                                                 <i class="fas fa-arrow-up"></i>
